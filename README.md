@@ -24,7 +24,8 @@ Add this to the use section of your model:
 ```use LaraPages\Translations\Translations;```
 And add
 ```use Translations;```
-after ```class Story extends Model
+after 
+```class Story extends Model
 {
 ```
 Then you can use the trans or __ methods on your models. Like this:
