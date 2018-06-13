@@ -25,7 +25,8 @@ Add this to the use section of your model:
 And add
 ```use Translations;```
 after 
-```class Story extends Model
+```
+class Story extends Model
 {
 ```
 Then you can use the trans or __ methods on your models. Like this:
