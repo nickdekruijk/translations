@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraPages\Translations;
+namespace NickDeKruijk\Translations;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraPages\Translations;
+namespace NickDeKruijk\Translations;
 
 use App;
 

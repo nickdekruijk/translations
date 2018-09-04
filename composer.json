@@ -1,13 +1,13 @@
 {
-    "name": "larapages/translations",
+    "name": "nickdekruijk/translations",
     "description": "A simple Translation trait to be used with Laravel Models",
     "license": "MIT",
     "keywords": [ "php", "laravel", "model", "translation", "localization" ],
-    "homepage": "http://www.larapages.nl",
+    "homepage": "http://www.nickdekruijk.nl",
     "authors": [
         {
             "name": "Nick de Kruijk",
-            "email": "git@larapages.nl"
+            "email": "git@nickdekruijk.nl"
         }
     ],
     "minimum-stability": "dev",
@@ -18,13 +18,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaraPages\\Translations\\ServiceProvider"
+                "NickDeKruijk\\Translations\\ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "LaraPages\\Translations\\": "src/"
+            "NickDeKruijk\\Translations\\": "src/"
         }
     }
 }
