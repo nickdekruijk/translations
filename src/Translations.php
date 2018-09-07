@@ -24,7 +24,9 @@ trait Translations {
             return null;
         }
 
-        $column .= $postfix;
+        if (array_key_exists($column . $postfix, $this->attributes)) {
+            $column .= $postfix;
+        }
 
         return $this->$column;
     }
