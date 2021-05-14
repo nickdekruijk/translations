@@ -4,16 +4,17 @@ namespace NickDeKruijk\Translations;
 
 use App;
 
-trait Translations {
+trait Translations
+{
 
-    public function __($column)
+    public function __($column, $locale = null)
     {
-        return $this->trans($column);
+        return $this->trans($column, $locale);
     }
 
-    public function trans($column)
+    public function trans($column, $locale = null)
     {
-        $locale = App::getLocale();
+        $locale = $locale ?: App::getLocale();
 
         $postfix = config('translations.postfixes');
         if (isset($postfix[$locale])) {
@@ -30,6 +31,4 @@ trait Translations {
 
         return $this->$column;
     }
-
-
 }
